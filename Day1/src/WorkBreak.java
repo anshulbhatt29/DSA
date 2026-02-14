@@ -1,3 +1,9 @@
+//Notes
+/*
+We use
+Boolean[] vs boolean[]: We use the wrapper class Boolean so the array defaults to null.
+if we use primitive default value will be false.
+ */
 class WordBreak {
     public Boolean[] isValidWordBreak;
     public boolean wordBreak(String s, List<String> wordDict) {
